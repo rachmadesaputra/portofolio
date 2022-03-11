@@ -22,6 +22,22 @@
 
     <link rel="stylesheet" href="css/style.css">
     
+    <style>
+   .vertical{
+     /*mengatur display pembungkus tag hr*/
+     display: flex;
+   }
+   .hr{
+     /*mengatur tinggi minimal garis*/
+     min-height: 100%;
+     /*mengatur tinggi maksimal garis*/
+     max-height: 100vh;
+     /*mengatur margin garis*/
+     margin: 0;
+   }
+      
+ </style>
+    
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
@@ -62,6 +78,14 @@
     </div> <!-- END .site-navbar-wrap -->
 
     <div class="container">
+      <div class="vertical">
+          <p>Email : putra354@gmail.com</p>
+          <!-- membuat garis -->
+          <hr />
+          <p>Phone : 08561932803</p>
+          <hr />
+          <p>Address : Tangerang City</p>
+      </div>
       <h3 style="color: green">Email : putra354@gmail.com &nbsp; Phone : 08561932803 &nbsp; Address : Tangerang City</h3><br>
     </div>
     
